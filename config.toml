@@ -5,99 +5,101 @@ theme = "hugo-creative-theme"
 googleAnalytics = ""
 
 [[menu.main]]
-    name = "Documentation"
-    weight = -110
-    url = "https://maasglobal.github.io/maas-tsp-api/"
+  name = "Documentation"
+  weight = -110
+  url = "https://maasglobal.github.io/maas-tsp-api/"
+
+[[menu.main]]
+  name = "Sourcecode"
+  weight = -110
+  url = "https://github.com/maasglobal/maas-tsp-api"
 
 [params]
+  # You can use Markdown syntax for urls [text](//url.to/source) for
+  # most longer texts.
 
-	# You can use Markdown syntax for urls [text](//url.to/source) for
-	# most longer texts.
+  # All icons using Fontawesome's icon font. Look at http://fontawesome.io/icons/
+  # for more icons. The icons are represented by their corresponding
+  # CSS class.
 
-	# All icons using Fontawesome's icon font. Look at http://fontawesome.io/icons/
-	# for more icons. The icons are represented by their corresponding
-	# CSS class.
+  # All projects of the portfolio are defined in their own files.
+  # You can find example projects at 'exampleSite/data/projects'. Copy the 'projects'
+  # folder into the 'data' directory at the root of this Hugo site.
+  # For more information take a look at the README.
 
-	# All projects of the portfolio are defined in their own files.
-	# You can find example projects at 'exampleSite/data/projects'. Copy the 'projects'
-	# folder into the 'data' directory at the root of this Hugo site.
-	# For more information take a look at the README.
+  # To provide some metadata for search engines feel free to add some
+  # information about you and your website.
+  name = "MaaS Global Oy"
+  # description = "Your description"
 
-	# To provide some metadata for search engines feel free to add some
-	# information about you and your website.
-	name = "MaaS Global Oy"
-	# description = "Your description"
-
-	# The path must be relative to the static folder
-	favicon = "favicon.ico"
-
-
-	# Navigation
-	[params.navigation]
-		brand = "MaaS API"
-
-		[params.navigation.links]
-			about     = "About"
-			services  = "Services"
-			portfolio = "Portfolio"
-			contact   = "Contact"
+  # The path must be relative to the static folder
+  favicon = "favicon.ico"
 
 
-	# Hero section
-	[params.hero]
-		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
-		slogan     = "Mobility as a Service"
-		subtitle   = "Connecting the world of mobility providers."
-		buttonText = "Find out more"
+# Navigation
+[params.navigation]
+	brand = "MaaS API"
+
+[params.navigation.links]
+	about     = "About"
+	services  = "Services"
+	portfolio = "Portfolio"
+	contact   = "Contact"
+
+# Hero section
+[params.hero]
+  # To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
+  slogan     = "Mobility as a Service"
+  subtitle   = "Connecting the world of mobility providers."
+  buttonText = "Find out more"
 
 
-	# About section
-	[params.about]
-		headline    = "Unified mobility ecosystem"
-		description = "A common standard for mobility data flow."
-		buttonText  = "Get started"
-		link = "https://maasglobal.github.io/maas-tsp-api/"
+# About section
+[params.about]
+	headline    = "Unified mobility ecosystem"
+	description = "A common standard for mobility data flow."
+	buttonText  = "Get started"
+	link = "https://maasglobal.github.io/maas-tsp-api/"
 
-
-	# Service section
-	[params.services]
-		headline = "Features"
+# Service section
+[params.services]
+  headline = "Features"
 
 [[params.services.list]]
 	icon = "fa-diamond"
 	title = "Sturdy Templates"
 	description = "Our templates are updated regularly so they don't break."
 
-    [[params.services.list]]
-			icon = "fa-paper-plane"
-			title = "Ready to Ship"
-			description = "You can use this theme as is, or you can make changes!"
+[[params.services.list]]
+	icon = "fa-paper-plane"
+	title = "Ready to Ship"
+	description = "You can use this theme as is, or you can make changes!"
 
-		[[params.services.list]]
-      icon = "fa-newspaper-o"
-      title = "Up to Date"
-      description = "We update dependencies to keep things fresh."
+[[params.services.list]]
+  icon = "fa-newspaper-o"
+  title = "Up to Date"
+  description = "We update dependencies to keep things fresh."
 
-        [[params.services.list]]
-            icon = "fa-heart"
-            title = "Made with Love"
-            description = "You have to make your websites with love these days!"
+[[params.services.list]]
+  icon = "fa-heart"
+  title = "Made with Love"
+  description = "You have to make your websites with love these days!"
 
 
-    # Portfolio modals
-	[params.portfolio.modal]
-        client = "Client"
-        date = "Date"
-        category = "Category"
-        buttonText = "Close"
+# Portfolio modals
+[params.portfolio.modal]
+  client = "Client"
+  date = "Date"
+  category = "Category"
+  buttonText = "Close"
 
     # Aside section
-	[params.aside]
-		headline = "Help us build the future of MaaS APIs"
+[params.aside]
+  headline = "Help build the future of MaaS APIs"
 
-		[params.aside.button]
-			text = "Contribute"
-			link = "https://github.com/maasglobal/maas-tsp-api"
+[params.aside.button]
+	text = "Contribute"
+	link = "https://github.com/maasglobal/maas-tsp-api"
 
 	# Contact section
 	# [params.contact]
