@@ -95,7 +95,7 @@ googleAnalytics = ""
 
     # Aside section
 [params.aside]
-  headline = "Help build the future of MaaS APIs"
+  headline = "Shape the future of MaaS APIs"
 
 [params.aside.button]
 	text = "Contribute"
