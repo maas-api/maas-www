@@ -49,7 +49,7 @@ googleAnalytics = ""
 # Hero section
 [params.hero]
   # To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
-  slogan     = "Mobility as a Service"
+  slogan     = "Mobility as a Service API"
   subtitle   = "Connecting the world of mobility providers."
   buttonText = "Find out more"
 
