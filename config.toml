@@ -63,27 +63,27 @@ googleAnalytics = ""
 
 # Service section
 [params.services]
-  headline = "Features"
+  headline = "Aspects"
 
 [[params.services.list]]
 	icon = "fa-diamond"
-	title = "Sturdy Templates"
-	description = "Our templates are updated regularly so they don't break."
+	title = "Product offerings"
+	description = "Let downstream service providers discover your products."
 
 [[params.services.list]]
 	icon = "fa-paper-plane"
-	title = "Ready to Ship"
-	description = "You can use this theme as is, or you can make changes!"
+	title = "Bookings and reservations"
+	description = "Customers can book tickets directly with your service."
 
 [[params.services.list]]
   icon = "fa-newspaper-o"
-  title = "Up to Date"
-  description = "We update dependencies to keep things fresh."
+  title = "Service announcements"
+  description = "Publish information about new and upcoming services."
 
 [[params.services.list]]
   icon = "fa-heart"
-  title = "Made with Love"
-  description = "You have to make your websites with love these days!"
+  title = "Feedback"
+  description = "Learn from customers to improve your service."
 
 
 # Portfolio modals
