@@ -77,23 +77,23 @@ googleAnalytics = ""
 
 [[params.services.list]]
 	icon = "fa-diamond"
-	title = "Product offerings"
-	description = "Let downstream service providers discover your products."
+	title = "Products"
+	description = "Let service providers discover your products."
 
 [[params.services.list]]
 	icon = "fa-paper-plane"
-	title = "Bookings and reservations"
+	title = "Bookings"
 	description = "Customers can book tickets directly with your service."
 
 [[params.services.list]]
   icon = "fa-check-square-o"
   title = "Validation"
-  description = "Transportation companies ensure that bookings are valid."
+  description = "Transportation providers check that bookings are valid."
 
 [[params.services.list]]
   icon = "fa-newspaper-o"
-  title = "Service announcements"
-  description = "Publish information about new and upcoming services."
+  title = "Announcements"
+  description = "Announce new and upcoming services, outages, etc."
 
 [[params.services.list]]
   icon = "fa-heart"
@@ -103,7 +103,7 @@ googleAnalytics = ""
 [[params.services.list]]
   icon = "fa-credit-card"
   title = "Payments"
-  description = "Make sure all parties get a fair share and good value."
+  description = "Ensure all parties get a fair share and good value."
 
 
 # Portfolio modals
