@@ -66,6 +66,16 @@ googleAnalytics = ""
   headline = "Aspects"
 
 [[params.services.list]]
+  icon = "fa-map-signs"
+  title = "Routes"
+  description = "Connect the dots to get people to their destinations."
+
+[[params.services.list]]
+  icon = "fa-clock-o"
+  title = "Schedules"
+  description = "Keep track of timetables to plan the optimal journey."
+
+[[params.services.list]]
 	icon = "fa-diamond"
 	title = "Product offerings"
 	description = "Let downstream service providers discover your products."
@@ -76,6 +86,11 @@ googleAnalytics = ""
 	description = "Customers can book tickets directly with your service."
 
 [[params.services.list]]
+  icon = "fa-check-square-o"
+  title = "Validation"
+  description = "Transportation companies ensure that bookings are valid."
+
+[[params.services.list]]
   icon = "fa-newspaper-o"
   title = "Service announcements"
   description = "Publish information about new and upcoming services."
@@ -84,6 +99,11 @@ googleAnalytics = ""
   icon = "fa-heart"
   title = "Feedback"
   description = "Learn from customers to improve your service."
+
+[[params.services.list]]
+  icon = "fa-credit-card"
+  title = "Payments"
+  description = "Make sure all parties get a fair share and good value."
 
 
 # Portfolio modals
