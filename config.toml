@@ -114,7 +114,7 @@ googleAnalytics = ""
   headline = "Shape the future of MaaS APIs"
 
 [params.contribute.button]
-	text = "Sourcecode"
+	text = "View Sourcecode"
 	link = "https://github.com/maasglobal/maas-tsp-api"
 
 #Contact section
