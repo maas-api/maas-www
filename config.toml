@@ -5,14 +5,9 @@ theme = "hugo-creative-theme"
 googleAnalytics = ""
 
 [[menu.main]]
-  name = "Documentation"
+  name = "API Documentation"
   weight = -110
   url = "https://maasglobal.github.io/maas-tsp-api/"
-
-[[menu.main]]
-  name = "Sourcecode"
-  weight = -110
-  url = "https://github.com/maasglobal/maas-tsp-api"
 
 [params]
   # You can use Markdown syntax for urls [text](//url.to/source) for
@@ -42,65 +37,66 @@ googleAnalytics = ""
 
 [params.navigation.links]
 	about     = "About"
-	services  = "Services"
+	aspects  = "Aspects"
 	portfolio = "Portfolio"
 	contact   = "Contact"
+  contribute = "Sourcecode"
 
 # Hero section
 [params.hero]
   # To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
   slogan     = "Mobility as a Service API"
-  subtitle   = "Connecting the world of mobility providers."
+  subtitle   = "Connecting the world of mobility providers"
   buttonText = "Find out more"
 
 
 # About section
 [params.about]
 	headline    = "Unified mobility ecosystem"
-	description = "A common standard for mobility data flow."
-	buttonText  = "Get started"
+	description = "A common standard for mobility data flow"
+	buttonText  = "View API Documentation"
 	link = "https://maasglobal.github.io/maas-tsp-api/"
 
 # Service section
-[params.services]
+[params.aspects]
   headline = "Aspects"
 
-[[params.services.list]]
+[[params.aspects.list]]
   icon = "fa-map-signs"
   title = "Routes"
   description = "Connect the dots to get people to their destinations."
 
-[[params.services.list]]
+[[params.aspects.list]]
   icon = "fa-clock-o"
   title = "Schedules"
   description = "Keep track of timetables to plan the optimal journey."
 
-[[params.services.list]]
+[[params.aspects.list]]
 	icon = "fa-diamond"
 	title = "Products"
 	description = "Let service providers discover your products."
 
-[[params.services.list]]
+[[params.aspects.list]]
 	icon = "fa-paper-plane"
 	title = "Bookings"
 	description = "Customers can book tickets directly with your service."
 
-[[params.services.list]]
+[[params.aspects.list]]
   icon = "fa-check-square-o"
   title = "Validation"
   description = "Transportation providers check that bookings are valid."
 
-[[params.services.list]]
+[[params.aspects.list]]
   icon = "fa-newspaper-o"
   title = "Announcements"
   description = "Announce new and upcoming services, outages, etc."
 
-[[params.services.list]]
+[[params.aspects.list]]
   icon = "fa-heart"
   title = "Feedback"
   description = "Learn from customers to improve your service."
 
-[[params.services.list]]
+[[params.aspects.list]]
   icon = "fa-credit-card"
   title = "Payments"
   description = "Ensure all parties get a fair share and good value."
@@ -113,20 +109,20 @@ googleAnalytics = ""
   category = "Category"
   buttonText = "Close"
 
-    # Aside section
-[params.aside]
+# Aside section
+[params.contribute]
   headline = "Shape the future of MaaS APIs"
 
-[params.aside.button]
-	text = "Contribute"
+[params.contribute.button]
+	text = "Sourcecode"
 	link = "https://github.com/maasglobal/maas-tsp-api"
 
-	# Contact section
-	# [params.contact]
-	# 	headline = "Let's Get In Touch!"
-	# 	description = "Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!"
-	# 	phone = "123-456-6789"
-	# 	email = "feedback@startbootstrap.com"
+#Contact section
+[params.contact]
+	headline = "Get in touch"
+	# description = "Help us build the fuuuuuuuuture!"
+	# phone = "123-456-6789"
+	email = "tech@maas.global"
 
 	# Google Maps section
 	# [params.location]

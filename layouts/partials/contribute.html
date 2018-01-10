@@ -1,0 +1,13 @@
+{{ "<!-- ASIDE -->" | safeHTML }}
+<section class="bg-dark" id="contribute">
+    <div class="container text-center">
+        <div class="call-to-action">
+            {{ with .Site.Params.contribute.headline }}<h2>{{ . }}</h2>{{ end }}
+            {{ if and .Site.Params.contribute.button.link .Site.Params.contribute.button.text }}
+                <a href="{{ .Site.Params.contribute.button.link }}" class="btn btn-default btn-xl wow tada">
+                  {{ .Site.Params.contribute.button.text }}
+                </a>
+            {{ end }}
+        </div>
+    </div>
+</section>
