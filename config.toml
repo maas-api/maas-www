@@ -55,7 +55,7 @@ googleAnalytics = ""
 	headline    = "Unified mobility ecosystem"
 	description = "A common standard for mobility data flow"
 	buttonText  = "View API Documentation"
-	link = "https://maasglobal.github.io/maas-tsp-api/"
+	link = "http://docs.maas-api.org/"
 
 # Service section
 [params.aspects]
