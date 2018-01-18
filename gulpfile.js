@@ -17,7 +17,7 @@ gulp.task(
       // Delete remote (origin) gh-pages branch
       'git push origin --delete gh-pages',
       // Push the 'public' folder to the upstream Github Pages branch
-      'git subtree push --prefix public upstream gh-pages',
+      'git subtree push --prefix public origin gh-pages',
       // Switch back to master branch
       'git checkout master',
       // Cleanup temp GitHub Pages branch
