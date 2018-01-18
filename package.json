@@ -1,0 +1,26 @@
+{
+  "name": "maas-api.org",
+  "version": "1.0.0",
+  "description": "Promotional website for Mobility as a Service API standardization efforts.",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maasglobal/maas-api.org.git"
+  },
+  "keywords": [
+    "API",
+    "Swagger",
+    "transportation",
+    "mobility"
+  ],
+  "author": "MaaS Global Oy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maasglobal/maas-api.org/issues"
+  },
+  "homepage": "https://maas-api.org"
+}
