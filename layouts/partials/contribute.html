@@ -4,7 +4,7 @@
         <div class="call-to-action">
             {{ with .Site.Params.contribute.headline }}<h2>{{ . }}</h2>{{ end }}
             {{ if and .Site.Params.contribute.button.link .Site.Params.contribute.button.text }}
-                <a href="{{ .Site.Params.contribute.button.link }}" class="btn btn-default btn-xl wow tada">
+                <a href="{{ .Site.Params.contribute.button.link }}" class="btn btn-default btn-xl">
                   {{ .Site.Params.contribute.button.text }}
                 </a>
             {{ end }}
